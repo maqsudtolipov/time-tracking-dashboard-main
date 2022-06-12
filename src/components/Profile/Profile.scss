@@ -1,0 +1,53 @@
+.profile {
+  border-radius: 1.5rem;
+  background-color: #1d204b;
+  overflow: hidden;
+
+  &__header {
+    background-color: #5847eb;
+    padding: 3.7rem 8.4rem 8rem 3.2rem;
+    border-radius: inherit;
+  }
+
+  &__avatar {
+    display: block;
+    width: 8.3rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 4rem;
+  }
+
+  &__subheading {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #bdc1ff;
+    margin-bottom: 7px;
+  }
+
+  &__name {
+    display: table-caption;
+    font-size: 4rem;
+    line-height: 4.7rem;
+    font-weight: 300;
+    margin-bottom: 3px;
+  }
+
+  &__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  &__link {
+    font-size: 1.8rem;
+    color: #bdc1ff;
+    cursor: pointer;
+
+    &:hover,
+    &--active {
+      color: #fff;
+    }
+  }
+}
