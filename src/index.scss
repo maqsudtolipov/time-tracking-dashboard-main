@@ -18,14 +18,19 @@ body {
 }
 
 .app {
-  min-height: 100vh;
   background-color: #0d1323;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 
   // temp
   background-image: url('../design/desktop-design.jpg');
   background-position: center;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }

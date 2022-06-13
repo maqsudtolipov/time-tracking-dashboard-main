@@ -1,0 +1,77 @@
+.card {
+  background-repeat: no-repeat;
+  background-position: 90% -7%;
+  padding-top: 4.5rem;
+  border-radius: 15px;
+
+  &--work {
+    background-image: url('../../assets/headers/icon-work.svg');
+    background-color: #ff8c66;
+  }
+
+  &--play {
+    background-image: url('../../assets/headers/icon-play.svg');
+    background-color: #56c2e6;
+  }
+
+  &--study {
+    background-image: url('../../assets/headers/icon-study.svg');
+    background-color: #ff5c7c;
+  }
+
+  &--exercise {
+    background-image: url('../../assets/headers/icon-exercise.svg');
+    background-color: #4acf81;
+  }
+
+  &--social {
+    background-image: url('../../assets/headers/icon-social.svg');
+    background-color: #7536d3;
+  }
+
+  &--self-care {
+    background-image: url('../../assets/headers/icon-self-care.svg');
+    background-color: #f1c65b;
+  }
+
+  &__content {
+    background-color: #1c1f4a;
+    border-radius: 15px;
+    height: 100%;
+    padding: 3rem 3.2rem;
+
+    &:hover {
+      background-color: #33387a;
+      cursor: pointer;
+    }
+  }
+
+  &__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  &__icon {
+    cursor: pointer;
+  }
+
+  &__time {
+    font-size: 5.6rem;
+    line-height: 6.6rem;
+    font-weight: 300;
+    margin-bottom: 0.8rem;
+  }
+
+  &__last-time {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #bdc1ff;
+  }
+}

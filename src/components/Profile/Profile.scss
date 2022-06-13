@@ -1,49 +1,56 @@
 .profile {
-  border-radius: 1.5rem;
-  background-color: #1d204b;
+  border-radius: 15px;
+  background-color: #1c1f4a;
+  grid-row: 1 / -1;
   overflow: hidden;
 
   &__header {
     background-color: #5847eb;
-    padding: 3.7rem 8.4rem 8rem 3.2rem;
-    border-radius: inherit;
+    padding: 3.7rem 3.2rem 8rem 3.2rem;
+    border-radius: 15px;
   }
 
   &__avatar {
-    display: block;
-    width: 8.3rem;
-    border: 3px solid #fff;
+    height: 7.7rem;
+    width: 7.7rem;
+    outline: 3px solid #fff;
     border-radius: 50%;
     margin-bottom: 4rem;
   }
 
   &__subheading {
-    display: inline-block;
     font-size: 1.5rem;
+    line-height: 1.8rem;
     color: #bdc1ff;
-    margin-bottom: 7px;
+    display: block;
+    margin-bottom: 0.7rem;
   }
 
   &__name {
-    display: table-caption;
     font-size: 4rem;
     line-height: 4.7rem;
     font-weight: 300;
-    margin-bottom: 3px;
   }
 
   &__links {
     list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 2rem;
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    cursor: pointer;
+
+    &--active {
+      color: #fff;
+      font-weight: 500;
+    }
   }
 
   &__link {
     font-size: 1.8rem;
+    line-height: 2.1rem;
     color: #bdc1ff;
-    cursor: pointer;
 
     &:hover,
     &--active {
