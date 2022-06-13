@@ -4,3 +4,24 @@
   grid-template-rows: repeat(2, 24.4rem);
   gap: 3rem;
 }
+
+// less than 1200
+@media (max-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(3, 25.5rem);
+  }
+}
+
+// less than 850
+@media (max-width: 850px) {
+  .container {
+    grid-template-columns: repeat(2, 25.5rem);
+  }
+}
+
+// less than 650
+@media (max-width: 650px) {
+  .container {
+    grid-template-columns: repeat(1, 25.5rem);
+  }
+}
